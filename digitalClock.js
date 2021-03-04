@@ -12,6 +12,11 @@ const minutesParagraphs = document.querySelectorAll(".minutes p");
 let hours = 0;
 const hoursParagraphs = document.querySelectorAll(".hours p");
 
+const buttonStart = document.getElementById("start");
+const buttonStop = document.getElementById("stop");
+const buttonReset = document.getElementById("reset");
+const buttonSave = document.getElementById("save");
+
 setInterval(function () {
   renderDigits(seconds, secondsParagraphs);
   renderDigits(minutes, minutesParagraphs);
